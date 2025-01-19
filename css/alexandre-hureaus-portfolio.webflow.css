@@ -299,6 +299,10 @@ p {
   padding-bottom: 0;
 }
 
+.new-content.footer>.new-button-link {
+  align-self: inherit;
+}
+
 .new-medium-title {
   margin-top: 0;
   margin-bottom: 0;
