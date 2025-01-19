@@ -1057,6 +1057,14 @@ textarea.w-select {
   width: 1em;
   height: 1em;
 }
+.w-icon-slider-left:hover,
+.w-icon-slider-right:hover {
+  color: #2c4b61;
+}
+.w-icon-slider-left:active,
+.w-icon-slider-right:active {
+  color: #47789c;
+}
 .w-slider-aria-label {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1597,6 +1605,12 @@ textarea.w-select {
   float: left;
   text-decoration: none;
   color: #333333;
+}
+.w-nav-brand>img:hover {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(19%) saturate(1083%) hue-rotate(162deg) brightness(93%) contrast(94%);
+}
+.w-nav-brand>img:active {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(53%) saturate(429%) hue-rotate(163deg) brightness(95%) contrast(87%);
 }
 .w-nav-link {
   position: relative;
